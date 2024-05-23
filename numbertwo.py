@@ -38,6 +38,10 @@ if __name__=="__main__":
     if len(sys.argv) < 2:
         print("Пожалуйста, укажите имя файла с данными в качестве аргумента командной строки.")
         sys.exit(1)
+
+    args_lentgh=0
+    for arg in sys.argv[1:]:
+        args_lentgh+=1
         
     file_name = sys.argv[1]
     x_arr, y_arr = [],[]

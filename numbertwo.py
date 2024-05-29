@@ -45,7 +45,7 @@ if __name__=="__main__":
         
     file_name = sys.argv[1]
     x_arr, y_arr = [],[]
-    if (args_lentgh>1):
+    if (args_lentgh>2):
         x_min=sys.argv[2]
         x_max=sys.argv[3]
         x_arr, y_arr = read_values_from_file(file_name,x_min,x_max)
